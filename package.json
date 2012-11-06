@@ -1,0 +1,16 @@
+{ "name": "simpleturing"
+, "description": "Simple Turing Machine in Javascript for Browser and Node.js"
+, "keywords": [ "turing", "machine", "nodejs", "javascript" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleTuring.git" }
+, "main": "./lib/simpleturing.js"
+, "engines": { "node": ">= 0.6.0 && < 0.9.0" }
+, "scripts": {
+    "test": "node ./test.js"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+  }
+}
