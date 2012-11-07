@@ -36,3 +36,11 @@ assert.ok(result);
 assert.ok(Array.isArray(result));
 assert.equal(result.length, 8);
 assert.deepEqual(result, [0, 0, 1, 1, 1, 1, 1, 1]);
+
+
+var result = machine.run([0, 0, 1, 1, 1, 1, 1],0, 0);
+
+assert.ok(result);
+assert.ok(Array.isArray(result));
+assert.equal(result.length, 12);
+assert.deepEqual(result, [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]);
